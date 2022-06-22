@@ -9,7 +9,7 @@ const static = require('koa-static');
 const xmlParser = require('koa-xml-body')
 const appPrepare = require('./app');
 const path = require('path');
-// const http = require('http');
+const http = require('http');
 const https = require('https');
 
 //log 配置
@@ -48,22 +48,37 @@ app.use(router.allowedMethods());
 // 配置静态web服务的中间件
 app.use(static(path.join(__dirname, './app/file/')));
 
-app.listen(3000, function listening() {
-    logger4js.info("API启动成功");
-});
+// plan A
+// app.listen(3000, function listening() {
+//     logger4js.info("API启动成功");
+// });
 
-// http.createServer(app.callback()).listen(3000);
+// plan B
+const server = http.createServer(app.callback())
+const io = require('socket.io')(server);
+io.on("connection", (socket) => {
+    logger4js.info("socket connect");
+    io.on("disconnect", (reason) => {
+        logger4js.info("socket disconnect");
+    });
+});
+server.listen(3000);
+setInterval(() => {
+    // io.emit("CALL", "呼叫青铜时代号~");
+}, 1000)
 
 // const httpsOptions = {
 //     key: fs.readFileSync(path.join(__dirname, './app/utils/ca.key')), //私钥文件路径
 //     cert: fs.readFileSync(path.join(__dirname, './app/utils/ca.pem')) //证书文件路径
 // };
+
+// plan C
 // https.createServer(httpsOptions, app.callback()).listen(3000, () => {
 //     logger4js.info("API启动成功");
 // });
 
 // 数据库表关系 配置
-function setModelsRelations(sequelize) {
+function setModelsRelations (sequelize) {
     // const A = sequelize.models.A;
     // const B = sequelize.models.B;
 
