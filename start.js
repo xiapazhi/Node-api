@@ -64,7 +64,7 @@ io.on("connection", (socket) => {
 });
 server.listen(3000);
 setInterval(() => {
-    // io.emit("CALL", "呼叫青铜时代号~");
+    io.emit("CALL", "呼叫青铜时代号~");
 }, 1000)
 
 // const httpsOptions = {
