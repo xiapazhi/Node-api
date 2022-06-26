@@ -1,0 +1,1003 @@
+2022-06-25 15:24:02 -|- INFO -|- YUAN 
+ ······· socket connect
+2022-06-25 15:24:12 -|- INFO -|- YUAN 
+ ······· socket connect
+2022-06-25 15:24:46 -|- INFO -|- YUAN 
+ ······· socket connect
+2022-06-25 16:29:12 -|- ERROR -|- YUAN 
+ ······· Error: error:04099079:rsa routines:RSA_padding_check_PKCS1_OAEP_mgf1:oaep decoding error
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:113:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'rsa routines',
+  function: 'RSA_padding_check_PKCS1_OAEP_mgf1',
+  reason: 'oaep decoding error',
+  code: 'ERR_OSSL_RSA_OAEP_DECODING_ERROR'
+}
+2022-06-25 16:29:22 -|- ERROR -|- YUAN 
+ ······· Error: error:04099079:rsa routines:RSA_padding_check_PKCS1_OAEP_mgf1:oaep decoding error
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:113:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'rsa routines',
+  function: 'RSA_padding_check_PKCS1_OAEP_mgf1',
+  reason: 'oaep decoding error',
+  code: 'ERR_OSSL_RSA_OAEP_DECODING_ERROR'
+}
+2022-06-25 16:29:40 -|- ERROR -|- YUAN 
+ ······· Error: error:04099079:rsa routines:RSA_padding_check_PKCS1_OAEP_mgf1:oaep decoding error
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:113:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'rsa routines',
+  function: 'RSA_padding_check_PKCS1_OAEP_mgf1',
+  reason: 'oaep decoding error',
+  code: 'ERR_OSSL_RSA_OAEP_DECODING_ERROR'
+}
+2022-06-25 16:31:02 -|- ERROR -|- YUAN 
+ ······· Error: error:2007E073:BIO routines:BIO_new_mem_buf:null parameter
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:114:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'BIO routines',
+  function: 'BIO_new_mem_buf',
+  reason: 'null parameter',
+  code: 'ERR_OSSL_BIO_NULL_PARAMETER'
+}
+2022-06-25 17:07:46 -|- ERROR -|- YUAN 
+ ······· Error: error:2007E073:BIO routines:BIO_new_mem_buf:null parameter
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:114:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'BIO routines',
+  function: 'BIO_new_mem_buf',
+  reason: 'null parameter',
+  code: 'ERR_OSSL_BIO_NULL_PARAMETER'
+}
+2022-06-25 17:10:41 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:121:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 17:11:09 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:121:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 17:11:10 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:121:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 17:11:11 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:121:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 17:35:08 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:122:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 17:35:30 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:122:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 17:35:52 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:122:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 18:03:24 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:121:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 18:04:24 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:121:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 18:04:47 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:121:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 18:05:01 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:121:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 18:05:04 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:121:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 18:05:05 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:121:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 18:46:50 -|- ERROR -|- YUAN 
+ ······· TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of Object
+    at Function.from (buffer.js:330:9)
+    at A:\Code\Node-api\app\controllers\crypto.js:121:75
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 18:47:16 -|- ERROR -|- YUAN 
+ ······· Error: error:2007E073:BIO routines:BIO_new_mem_buf:null parameter
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:121:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'BIO routines',
+  function: 'BIO_new_mem_buf',
+  reason: 'null parameter',
+  code: 'ERR_OSSL_BIO_NULL_PARAMETER'
+}
+2022-06-25 18:49:55 -|- ERROR -|- YUAN 
+ ······· TypeError [ERR_INVALID_ARG_TYPE]: The "input" argument must be an instance of ArrayBuffer or ArrayBufferView. Received an instance of Object
+    at TextDecoder.decode (internal/encoding.js:412:15)
+    at A:\Code\Node-api\app\controllers\crypto.js:122:38
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 18:50:03 -|- ERROR -|- YUAN 
+ ······· TypeError [ERR_INVALID_ARG_TYPE]: The "input" argument must be an instance of ArrayBuffer or ArrayBufferView. Received an instance of Object
+    at TextDecoder.decode (internal/encoding.js:412:15)
+    at A:\Code\Node-api\app\controllers\crypto.js:122:38
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 18:50:30 -|- ERROR -|- YUAN 
+ ······· TypeError [ERR_INVALID_ARG_TYPE]: The "input" argument must be an instance of ArrayBuffer or ArrayBufferView. Received an instance of Object
+    at TextDecoder.decode (internal/encoding.js:412:15)
+    at A:\Code\Node-api\app\controllers\crypto.js:122:38
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 18:52:08 -|- ERROR -|- YUAN 
+ ······· TypeError [ERR_INVALID_ARG_TYPE]: The "input" argument must be an instance of ArrayBuffer or ArrayBufferView. Received type string ('sl.�}d&֫�8\u0014p�2�5��7...)
+    at TextDecoder.decode (internal/encoding.js:412:15)
+    at A:\Code\Node-api\app\controllers\crypto.js:123:38
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 18:56:11 -|- ERROR -|- YUAN 
+ ······· Error: error:2007E073:BIO routines:BIO_new_mem_buf:null parameter
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:125:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'BIO routines',
+  function: 'BIO_new_mem_buf',
+  reason: 'null parameter',
+  code: 'ERR_OSSL_BIO_NULL_PARAMETER'
+}
+2022-06-25 18:56:13 -|- ERROR -|- YUAN 
+ ······· Error: error:0406506C:rsa routines:rsa_ossl_private_decrypt:data greater than mod len
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:125:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'rsa routines',
+  function: 'rsa_ossl_private_decrypt',
+  reason: 'data greater than mod len',
+  code: 'ERR_OSSL_RSA_DATA_GREATER_THAN_MOD_LEN'
+}
+2022-06-25 18:56:35 -|- ERROR -|- YUAN 
+ ······· Error: error:0406506C:rsa routines:rsa_ossl_private_decrypt:data greater than mod len
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:125:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'rsa routines',
+  function: 'rsa_ossl_private_decrypt',
+  reason: 'data greater than mod len',
+  code: 'ERR_OSSL_RSA_DATA_GREATER_THAN_MOD_LEN'
+}
+2022-06-25 18:57:11 -|- ERROR -|- YUAN 
+ ······· Error: error:2007E073:BIO routines:BIO_new_mem_buf:null parameter
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:125:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'BIO routines',
+  function: 'BIO_new_mem_buf',
+  reason: 'null parameter',
+  code: 'ERR_OSSL_BIO_NULL_PARAMETER'
+}
+2022-06-25 18:57:56 -|- ERROR -|- YUAN 
+ ······· Error: error:0406506C:rsa routines:rsa_ossl_private_decrypt:data greater than mod len
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:125:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'rsa routines',
+  function: 'rsa_ossl_private_decrypt',
+  reason: 'data greater than mod len',
+  code: 'ERR_OSSL_RSA_DATA_GREATER_THAN_MOD_LEN'
+}
+2022-06-25 19:02:26 -|- ERROR -|- YUAN 
+ ······· TypeError [ERR_INVALID_ARG_TYPE]: The "input" argument must be an instance of ArrayBuffer or ArrayBufferView. Received type string ('+��"b\u0003;\u0010(�\u00...)
+    at TextDecoder.decode (internal/encoding.js:412:15)
+    at A:\Code\Node-api\app\controllers\crypto.js:124:38
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 19:02:44 -|- ERROR -|- YUAN 
+ ······· TypeError [ERR_INVALID_ARG_TYPE]: The "input" argument must be an instance of ArrayBuffer or ArrayBufferView. Received an instance of Object
+    at TextDecoder.decode (internal/encoding.js:412:15)
+    at A:\Code\Node-api\app\controllers\crypto.js:124:38
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 19:03:00 -|- ERROR -|- YUAN 
+ ······· TypeError [ERR_INVALID_ARG_TYPE]: The "input" argument must be an instance of ArrayBuffer or ArrayBufferView. Received an instance of Object
+    at TextDecoder.decode (internal/encoding.js:412:15)
+    at A:\Code\Node-api\app\controllers\crypto.js:124:38
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 19:04:39 -|- ERROR -|- YUAN 
+ ······· TypeError [ERR_INVALID_ARG_TYPE]: The "input" argument must be an instance of ArrayBuffer or ArrayBufferView. Received an instance of Object
+    at TextDecoder.decode (internal/encoding.js:412:15)
+    at A:\Code\Node-api\app\controllers\crypto.js:124:38
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 19:19:30 -|- ERROR -|- YUAN 
+ ······· TypeError [ERR_INVALID_ARG_TYPE]: The "input" argument must be an instance of ArrayBuffer or ArrayBufferView. Received an instance of Object
+    at TextDecoder.decode (internal/encoding.js:412:15)
+    at A:\Code\Node-api\app\controllers\crypto.js:131:38
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 19:20:58 -|- ERROR -|- YUAN 
+ ······· Error: error:2007E073:BIO routines:BIO_new_mem_buf:null parameter
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:161:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'BIO routines',
+  function: 'BIO_new_mem_buf',
+  reason: 'null parameter',
+  code: 'ERR_OSSL_BIO_NULL_PARAMETER'
+}
+2022-06-25 19:22:56 -|- ERROR -|- YUAN 
+ ······· Error: error:0406506C:rsa routines:rsa_ossl_private_decrypt:data greater than mod len
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:161:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'rsa routines',
+  function: 'rsa_ossl_private_decrypt',
+  reason: 'data greater than mod len',
+  code: 'ERR_OSSL_RSA_DATA_GREATER_THAN_MOD_LEN'
+}
+2022-06-25 20:45:44 -|- ERROR -|- YUAN 
+ ······· ReferenceError: window is not defined
+    at _base64ToArrayBuffer (A:\Code\Node-api\app\controllers\crypto.js:124:37)
+    at A:\Code\Node-api\app\controllers\crypto.js:134:34
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7)
+2022-06-25 20:45:56 -|- ERROR -|- YUAN 
+ ······· ReferenceError: window is not defined
+    at _base64ToArrayBuffer (A:\Code\Node-api\app\controllers\crypto.js:124:37)
+    at A:\Code\Node-api\app\controllers\crypto.js:134:34
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7)
+2022-06-25 20:47:32 -|- ERROR -|- YUAN 
+ ······· Error: error:04099079:rsa routines:RSA_padding_check_PKCS1_OAEP_mgf1:oaep decoding error
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:136:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'rsa routines',
+  function: 'RSA_padding_check_PKCS1_OAEP_mgf1',
+  reason: 'oaep decoding error',
+  code: 'ERR_OSSL_RSA_OAEP_DECODING_ERROR'
+}
+2022-06-25 20:47:44 -|- ERROR -|- YUAN 
+ ······· Error: error:04099079:rsa routines:RSA_padding_check_PKCS1_OAEP_mgf1:oaep decoding error
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:136:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'rsa routines',
+  function: 'RSA_padding_check_PKCS1_OAEP_mgf1',
+  reason: 'oaep decoding error',
+  code: 'ERR_OSSL_RSA_OAEP_DECODING_ERROR'
+}
+2022-06-25 20:47:50 -|- ERROR -|- YUAN 
+ ······· Error: error:04099079:rsa routines:RSA_padding_check_PKCS1_OAEP_mgf1:oaep decoding error
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:136:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'rsa routines',
+  function: 'RSA_padding_check_PKCS1_OAEP_mgf1',
+  reason: 'oaep decoding error',
+  code: 'ERR_OSSL_RSA_OAEP_DECODING_ERROR'
+}
+2022-06-25 20:55:26 -|- ERROR -|- YUAN 
+ ······· Error: error:04099079:rsa routines:RSA_padding_check_PKCS1_OAEP_mgf1:oaep decoding error
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:125:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'rsa routines',
+  function: 'RSA_padding_check_PKCS1_OAEP_mgf1',
+  reason: 'oaep decoding error',
+  code: 'ERR_OSSL_RSA_OAEP_DECODING_ERROR'
+}
+2022-06-25 20:55:35 -|- ERROR -|- YUAN 
+ ······· Error: error:04099079:rsa routines:RSA_padding_check_PKCS1_OAEP_mgf1:oaep decoding error
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:125:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'rsa routines',
+  function: 'RSA_padding_check_PKCS1_OAEP_mgf1',
+  reason: 'oaep decoding error',
+  code: 'ERR_OSSL_RSA_OAEP_DECODING_ERROR'
+}
+2022-06-25 20:56:15 -|- ERROR -|- YUAN 
+ ······· Error: error:04099079:rsa routines:RSA_padding_check_PKCS1_OAEP_mgf1:oaep decoding error
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:125:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'rsa routines',
+  function: 'RSA_padding_check_PKCS1_OAEP_mgf1',
+  reason: 'oaep decoding error',
+  code: 'ERR_OSSL_RSA_OAEP_DECODING_ERROR'
+}
+2022-06-25 20:57:51 -|- ERROR -|- YUAN 
+ ······· Error: error:04099079:rsa routines:RSA_padding_check_PKCS1_OAEP_mgf1:oaep decoding error
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:125:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'rsa routines',
+  function: 'RSA_padding_check_PKCS1_OAEP_mgf1',
+  reason: 'oaep decoding error',
+  code: 'ERR_OSSL_RSA_OAEP_DECODING_ERROR'
+}
+2022-06-25 20:58:26 -|- ERROR -|- YUAN 
+ ······· Error: error:04099079:rsa routines:RSA_padding_check_PKCS1_OAEP_mgf1:oaep decoding error
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:123:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  library: 'rsa routines',
+  function: 'RSA_padding_check_PKCS1_OAEP_mgf1',
+  reason: 'oaep decoding error',
+  code: 'ERR_OSSL_RSA_OAEP_DECODING_ERROR'
+}
+2022-06-25 21:02:18 -|- ERROR -|- YUAN 
+ ······· TypeError: Passphrase required for encrypted key
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:131:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_MISSING_PASSPHRASE'
+}
+2022-06-25 21:02:30 -|- ERROR -|- YUAN 
+ ······· TypeError: Passphrase required for encrypted key
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:131:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_MISSING_PASSPHRASE'
+}
+2022-06-25 21:03:47 -|- ERROR -|- YUAN 
+ ······· TypeError: Passphrase required for encrypted key
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:131:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_MISSING_PASSPHRASE'
+}
+2022-06-25 21:04:56 -|- ERROR -|- YUAN 
+ ······· TypeError: Passphrase required for encrypted key
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:139:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_MISSING_PASSPHRASE'
+}
+2022-06-25 21:13:29 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:139:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 21:14:06 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:139:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 21:15:38 -|- ERROR -|- YUAN 
+ ······· TypeError: Data must be a buffer
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:139:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+2022-06-25 21:16:59 -|- ERROR -|- YUAN 
+ ······· TypeError: Passphrase required for encrypted key
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:125:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_MISSING_PASSPHRASE'
+}
+2022-06-25 21:17:51 -|- ERROR -|- YUAN 
+ ······· TypeError: Passphrase required for encrypted key
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:125:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_MISSING_PASSPHRASE'
+}
+2022-06-25 21:17:52 -|- ERROR -|- YUAN 
+ ······· TypeError: Passphrase required for encrypted key
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:125:40
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_MISSING_PASSPHRASE'
+}
+2022-06-25 21:27:03 -|- ERROR -|- YUAN 
+ ······· ReferenceError: pub_key is not defined
+    at A:\Code\Node-api\app\controllers\crypto.js:24:51
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7)
+2022-06-25 21:27:05 -|- ERROR -|- YUAN 
+ ······· ReferenceError: pub_key is not defined
+    at A:\Code\Node-api\app\controllers\crypto.js:24:51
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7)
+2022-06-25 21:27:23 -|- ERROR -|- YUAN 
+ ······· TypeError: Passphrase required for encrypted key
+    at Object.privateDecrypt (internal/crypto/cipher.js:63:12)
+    at A:\Code\Node-api\app\controllers\crypto.js:125:35
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at A:\Code\Node-api\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at A:\Code\Node-api\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (A:\Code\Node-api\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (A:\Code\Node-api\node_modules\koa-compose\index.js:42:32)
+    at A:\Code\Node-api\node_modules\koa-body\index.js:148:14
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async logger (A:\Code\Node-api\node_modules\koa-logger\index.js:67:7) {
+  code: 'ERR_MISSING_PASSPHRASE'
+}
